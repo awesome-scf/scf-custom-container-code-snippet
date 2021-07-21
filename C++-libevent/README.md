@@ -131,8 +131,7 @@ Dockerfile Base 镜像选用 centos:7 ，用户也可根据实际情况选用合
 5.自定函数名  
 6.勾选地域（与仓库同地域即可）  
 <image src="https://main.qcloudimg.com/raw/1fbfe03a0323368e3bda4b8c977d0de0.png" width="50%" height="50%">  
-7.点击完成  
-<image src="https://main.qcloudimg.com/raw/8c4ae1b9b2b0b01f24dc6b99cc6d1ce2.png" width="50%" height="50%">  
+7.点击完成，完成函数创建
 
 ### COS认证信息传入方式
 创建环境变量  
