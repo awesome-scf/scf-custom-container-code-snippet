@@ -21,7 +21,7 @@ def web_invoke():
     event = request.get_data()
     event_str = event.decode("utf-8")
 
-    return "Hello from SCF HTTP function, your input: " + event_str + ", request_id: " + request_id + "\n"
+    return "Hello from SCF Web function, your input: " + event_str + ", request_id: " + request_id + "\n"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=9000)
